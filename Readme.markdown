@@ -2,6 +2,8 @@
 
 Determinate, circular progress view.
 
+![SAMCircleProgressView animated](Example.gif)
+
 SAMCircleProgressView is tested on iOS 6 and requires ARC. Released under the [MIT license](LICENSE).
 
 ## Example
