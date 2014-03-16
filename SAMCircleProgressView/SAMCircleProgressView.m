@@ -90,7 +90,7 @@
 
 	// Math
 	CGPoint center = CGPointMake(CGRectGetMidX(rect), CGRectGetMidY(rect));
-	CGFloat radius = ceilf(rect.size.width / 2.0f);
+	CGFloat radius = rect.size.width / 2.0f;
 	CGFloat angle = (M_PI * 2.0f * self.progress) - M_PI_2;
 	CGPoint points[3] = {
 		CGPointMake(center.x, 0.0f),
